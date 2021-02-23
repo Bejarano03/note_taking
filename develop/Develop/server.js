@@ -19,5 +19,7 @@ app.use(cors());
 
 app.use(AppRoutes);
 
-
+app.listen(PORT, function() {
+    console.log("App listening on PORT: " + PORT);
+});
 
