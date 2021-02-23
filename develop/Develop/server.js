@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3066;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-
+app.use(express.static("Develop"));
 
 
 // app.use(express.static("develop/Develop/public", routes));
