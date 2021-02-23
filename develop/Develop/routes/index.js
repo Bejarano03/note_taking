@@ -4,11 +4,11 @@ const path = require("path");
 const fs = require("fs");
 
 router.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../db/db.json"));
+    res.sendFile(path.join(__dirname, "../public/index.html")); 
 });
 
 router.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/assets/notes.html"));
+    res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
 
 
