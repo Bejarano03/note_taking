@@ -4,10 +4,12 @@
   "description": "Helps you create tasks and ideas",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "engines": {
-    "node": "14.15.4"
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "author": "Marco Bejarano",
   "license": "ISC",
