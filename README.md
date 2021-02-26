@@ -12,6 +12,8 @@
 
 ## Developer Comment
 
+This homework assignment made me really grind my gears. I was able to get it to work eventually after figuring out all my pathing issues. The routes themselves were not hard to set up, but the reading JSON data functions were definitely not fun. 
+
 ## User Story
 
 ```
@@ -32,16 +34,18 @@ Application should allow users to view previously saved notes.
 Application should allow users to delete previously saved notes.
 ```
 
-## Languages
-
-
-
 ## Demo
+
+![Demo](image/notedemo.gif)
 
 ## Links
 
+Repository: https://github.com/Bejarano03/note_taking
 
+Heroku: 
 
 ## Installation
 
-
+- Fork repository
+- Open in editor of choice
+- Run "npm i" in the console to install dependencies. 
