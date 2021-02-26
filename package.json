@@ -4,8 +4,7 @@
   "description": "Helps you create tasks and ideas",
   "main": "server.js",
   "scripts": {
-    "install": "npm install",
-    "start": "npm start"
+    "start": "node server.js"
   },
   "engines":{
     "node": "12.19.0",
