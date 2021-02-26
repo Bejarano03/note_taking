@@ -4,7 +4,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3066;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.static(__dirname + '/assets/Develop/public'));
 app.use(express.static('public'));
