@@ -42,7 +42,7 @@ Application should allow users to delete previously saved notes.
 
 Repository: https://github.com/Bejarano03/note_taking
 
-Heroku: 
+Heroku: https://notetaking-engine.herokuapp.com/
 
 ## Installation
 
